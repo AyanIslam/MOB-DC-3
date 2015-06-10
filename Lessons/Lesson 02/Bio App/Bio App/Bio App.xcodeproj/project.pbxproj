@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFAC66881B266CEB003EC75A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAC66871B266CEB003EC75A /* AppDelegate.swift */; };
+		EFAC668A1B266CEB003EC75A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAC66891B266CEB003EC75A /* ViewController.swift */; };
+		EFAC668D1B266CEB003EC75A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAC668B1B266CEB003EC75A /* Main.storyboard */; };
+		EFAC668F1B266CEB003EC75A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFAC668E1B266CEB003EC75A /* Images.xcassets */; };
+		EFAC66921B266CEB003EC75A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFAC66901B266CEB003EC75A /* LaunchScreen.xib */; };
+		EFAC669E1B266CEB003EC75A /* Bio_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAC669D1B266CEB003EC75A /* Bio_AppTests.swift */; };
+		EFAC66A81B267138003EC75A /* Ayan Islam.tiff in Resources */ = {isa = PBXBuildFile; fileRef = EFAC66A71B267138003EC75A /* Ayan Islam.tiff */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFAC66981B266CEB003EC75A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFAC667A1B266CEB003EC75A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFAC66811B266CEB003EC75A;
+			remoteInfo = "Bio App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFAC66821B266CEB003EC75A /* Bio App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bio App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAC66861B266CEB003EC75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAC66871B266CEB003EC75A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFAC66891B266CEB003EC75A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFAC668C1B266CEB003EC75A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFAC668E1B266CEB003EC75A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFAC66911B266CEB003EC75A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EFAC66971B266CEB003EC75A /* Bio AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bio AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAC669C1B266CEB003EC75A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAC669D1B266CEB003EC75A /* Bio_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bio_AppTests.swift; sourceTree = "<group>"; };
+		EFAC66A71B267138003EC75A /* Ayan Islam.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Ayan Islam.tiff"; path = "Bio App Image/Ayan Islam.tiff"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFAC667F1B266CEB003EC75A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAC66941B266CEB003EC75A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFAC66791B266CEB003EC75A = {
+			isa = PBXGroup;
+			children = (
+				EFAC66841B266CEB003EC75A /* Bio App */,
+				EFAC669A1B266CEB003EC75A /* Bio AppTests */,
+				EFAC66831B266CEB003EC75A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFAC66831B266CEB003EC75A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFAC66821B266CEB003EC75A /* Bio App.app */,
+				EFAC66971B266CEB003EC75A /* Bio AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFAC66841B266CEB003EC75A /* Bio App */ = {
+			isa = PBXGroup;
+			children = (
+				EFAC66871B266CEB003EC75A /* AppDelegate.swift */,
+				EFAC66891B266CEB003EC75A /* ViewController.swift */,
+				EFAC668B1B266CEB003EC75A /* Main.storyboard */,
+				EFAC66A71B267138003EC75A /* Ayan Islam.tiff */,
+				EFAC668E1B266CEB003EC75A /* Images.xcassets */,
+				EFAC66901B266CEB003EC75A /* LaunchScreen.xib */,
+				EFAC66851B266CEB003EC75A /* Supporting Files */,
+			);
+			path = "Bio App";
+			sourceTree = "<group>";
+		};
+		EFAC66851B266CEB003EC75A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFAC66861B266CEB003EC75A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFAC669A1B266CEB003EC75A /* Bio AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFAC669D1B266CEB003EC75A /* Bio_AppTests.swift */,
+				EFAC669B1B266CEB003EC75A /* Supporting Files */,
+			);
+			path = "Bio AppTests";
+			sourceTree = "<group>";
+		};
+		EFAC669B1B266CEB003EC75A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFAC669C1B266CEB003EC75A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFAC66811B266CEB003EC75A /* Bio App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAC66A11B266CEB003EC75A /* Build configuration list for PBXNativeTarget "Bio App" */;
+			buildPhases = (
+				EFAC667E1B266CEB003EC75A /* Sources */,
+				EFAC667F1B266CEB003EC75A /* Frameworks */,
+				EFAC66801B266CEB003EC75A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bio App";
+			productName = "Bio App";
+			productReference = EFAC66821B266CEB003EC75A /* Bio App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFAC66961B266CEB003EC75A /* Bio AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAC66A41B266CEB003EC75A /* Build configuration list for PBXNativeTarget "Bio AppTests" */;
+			buildPhases = (
+				EFAC66931B266CEB003EC75A /* Sources */,
+				EFAC66941B266CEB003EC75A /* Frameworks */,
+				EFAC66951B266CEB003EC75A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFAC66991B266CEB003EC75A /* PBXTargetDependency */,
+			);
+			name = "Bio AppTests";
+			productName = "Bio AppTests";
+			productReference = EFAC66971B266CEB003EC75A /* Bio AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFAC667A1B266CEB003EC75A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ayan Islam";
+				TargetAttributes = {
+					EFAC66811B266CEB003EC75A = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					EFAC66961B266CEB003EC75A = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = EFAC66811B266CEB003EC75A;
+					};
+				};
+			};
+			buildConfigurationList = EFAC667D1B266CEB003EC75A /* Build configuration list for PBXProject "Bio App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFAC66791B266CEB003EC75A;
+			productRefGroup = EFAC66831B266CEB003EC75A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFAC66811B266CEB003EC75A /* Bio App */,
+				EFAC66961B266CEB003EC75A /* Bio AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFAC66801B266CEB003EC75A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAC668D1B266CEB003EC75A /* Main.storyboard in Resources */,
+				EFAC66A81B267138003EC75A /* Ayan Islam.tiff in Resources */,
+				EFAC66921B266CEB003EC75A /* LaunchScreen.xib in Resources */,
+				EFAC668F1B266CEB003EC75A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAC66951B266CEB003EC75A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFAC667E1B266CEB003EC75A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAC668A1B266CEB003EC75A /* ViewController.swift in Sources */,
+				EFAC66881B266CEB003EC75A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAC66931B266CEB003EC75A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAC669E1B266CEB003EC75A /* Bio_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFAC66991B266CEB003EC75A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFAC66811B266CEB003EC75A /* Bio App */;
+			targetProxy = EFAC66981B266CEB003EC75A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFAC668B1B266CEB003EC75A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAC668C1B266CEB003EC75A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFAC66901B266CEB003EC75A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAC66911B266CEB003EC75A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFAC669F1B266CEB003EC75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFAC66A01B266CEB003EC75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFAC66A21B266CEB003EC75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bio App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFAC66A31B266CEB003EC75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bio App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFAC66A51B266CEB003EC75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Bio AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bio App.app/Bio App";
+			};
+			name = Debug;
+		};
+		EFAC66A61B266CEB003EC75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Bio AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bio App.app/Bio App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFAC667D1B266CEB003EC75A /* Build configuration list for PBXProject "Bio App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAC669F1B266CEB003EC75A /* Debug */,
+				EFAC66A01B266CEB003EC75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAC66A11B266CEB003EC75A /* Build configuration list for PBXNativeTarget "Bio App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAC66A21B266CEB003EC75A /* Debug */,
+				EFAC66A31B266CEB003EC75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFAC66A41B266CEB003EC75A /* Build configuration list for PBXNativeTarget "Bio AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAC66A51B266CEB003EC75A /* Debug */,
+				EFAC66A61B266CEB003EC75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFAC667A1B266CEB003EC75A /* Project object */;
+}
