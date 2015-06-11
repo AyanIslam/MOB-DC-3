@@ -1,5 +1,16 @@
-//: Playground - noun: a place where people can play
+let name = "Ayan"
 
-import UIKit
+println("Ayan")
 
-var str = "Hello, playground"
+println(name)
+
+var age = 30
+println(age)
+
+println("My name is \(name)")
+
+println("I am \(age) years old")
+
+age = 25
+
+println("I am \(age) years old")
