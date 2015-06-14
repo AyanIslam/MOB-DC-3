@@ -11,8 +11,8 @@
 		5D06C67F19D8CFFE0082F2DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D06C67E19D8CFFE0082F2DE /* ViewController.swift */; };
 		5D06C68219D8CFFE0082F2DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D06C68019D8CFFE0082F2DE /* Main.storyboard */; };
 		5D06C68419D8CFFE0082F2DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D06C68319D8CFFE0082F2DE /* Images.xcassets */; };
-		EF6C9CD21B2D6320003799E8 /* Ayan Islam.tiff in Resources */ = {isa = PBXBuildFile; fileRef = EF6C9CD11B2D6320003799E8 /* Ayan Islam.tiff */; };
-		EF6C9CD41B2D6356003799E8 /* sleeping_leopard.tiff in Resources */ = {isa = PBXBuildFile; fileRef = EF6C9CD31B2D6356003799E8 /* sleeping_leopard.tiff */; };
+		EFA152391B2DFF11004326B7 /* Ayan Islam.tiff in Resources */ = {isa = PBXBuildFile; fileRef = EFA152381B2DFF11004326B7 /* Ayan Islam.tiff */; };
+		EFA1523B1B2DFF17004326B7 /* sleeping_leopard.tiff in Resources */ = {isa = PBXBuildFile; fileRef = EFA1523A1B2DFF17004326B7 /* sleeping_leopard.tiff */; };
 		EFE92F911B2D7ACD00D96CC1 /* Lesson01Tests in Resources */ = {isa = PBXBuildFile; fileRef = EFE92F901B2D7ACD00D96CC1 /* Lesson01Tests */; };
 /* End PBXBuildFile section */
 
@@ -27,15 +27,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5D06C67719D8CFFE0082F2DE /* Lesson01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Lesson01.app; path = "/Users/ayanislam/Desktop/Welcome to MOB at General Assembly!!!/MOB-DC-3/Assessments/HW 1 - Lessons 1-2/Code/build/Debug-iphoneos/Lesson01.app"; sourceTree = "<absolute>"; };
 		5D06C67B19D8CFFE0082F2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D06C67C19D8CFFE0082F2DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D06C67E19D8CFFE0082F2DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5D06C68119D8CFFE0082F2DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D06C68319D8CFFE0082F2DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5D06C68C19D8CFFE0082F2DE /* Lesson01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Lesson01Tests.xctest; path = "/Users/ayanislam/Desktop/Welcome to MOB at General Assembly!!!/MOB-DC-3/Assessments/HW 1 - Lessons 1-2/Code/build/Debug-iphoneos/Lesson01Tests.xctest"; sourceTree = "<absolute>"; };
-		EF6C9CD11B2D6320003799E8 /* Ayan Islam.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Ayan Islam.tiff"; path = "Lesson01.xcodeproj/../../../../../../../Pictures/Ayan/Ayan Islam.tiff"; sourceTree = SOURCE_ROOT; };
-		EF6C9CD31B2D6356003799E8 /* sleeping_leopard.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = sleeping_leopard.tiff; path = Lesson01.xcodeproj/../../../../../../../Pictures/sleeping_leopard.tiff; sourceTree = SOURCE_ROOT; };
+		EFA152361B2DDEF1004326B7 /* Lesson01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA152371B2DDEF1004326B7 /* Lesson01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lesson01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA152381B2DFF11004326B7 /* Ayan Islam.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Ayan Islam.tiff"; sourceTree = "<group>"; };
+		EFA1523A1B2DFF17004326B7 /* sleeping_leopard.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = sleeping_leopard.tiff; sourceTree = "<group>"; };
 		EFE92F901B2D7ACD00D96CC1 /* Lesson01Tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Lesson01Tests; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -62,17 +62,19 @@
 			children = (
 				5D06C67919D8CFFE0082F2DE /* Lesson01 */,
 				EFE92F901B2D7ACD00D96CC1 /* Lesson01Tests */,
+				EFA152361B2DDEF1004326B7 /* Lesson01.app */,
+				EFA152371B2DDEF1004326B7 /* Lesson01Tests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
 		5D06C67919D8CFFE0082F2DE /* Lesson01 */ = {
 			isa = PBXGroup;
 			children = (
+				EFA1523A1B2DFF17004326B7 /* sleeping_leopard.tiff */,
+				EFA152381B2DFF11004326B7 /* Ayan Islam.tiff */,
 				5D06C67C19D8CFFE0082F2DE /* AppDelegate.swift */,
 				5D06C67E19D8CFFE0082F2DE /* ViewController.swift */,
 				5D06C68019D8CFFE0082F2DE /* Main.storyboard */,
-				EF6C9CD11B2D6320003799E8 /* Ayan Islam.tiff */,
-				EF6C9CD31B2D6356003799E8 /* sleeping_leopard.tiff */,
 				5D06C68319D8CFFE0082F2DE /* Images.xcassets */,
 				5D06C67A19D8CFFE0082F2DE /* Supporting Files */,
 			);
@@ -104,7 +106,7 @@
 			);
 			name = Lesson01;
 			productName = Lesson01;
-			productReference = 5D06C67719D8CFFE0082F2DE /* Lesson01.app */;
+			productReference = EFA152361B2DDEF1004326B7 /* Lesson01.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5D06C68B19D8CFFE0082F2DE /* Lesson01Tests */ = {
@@ -122,7 +124,7 @@
 			);
 			name = Lesson01Tests;
 			productName = Lesson01Tests;
-			productReference = 5D06C68C19D8CFFE0082F2DE /* Lesson01Tests.xctest */;
+			productReference = EFA152371B2DDEF1004326B7 /* Lesson01Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -167,8 +169,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF6C9CD21B2D6320003799E8 /* Ayan Islam.tiff in Resources */,
-				EF6C9CD41B2D6356003799E8 /* sleeping_leopard.tiff in Resources */,
+				EFA152391B2DFF11004326B7 /* Ayan Islam.tiff in Resources */,
+				EFA1523B1B2DFF17004326B7 /* sleeping_leopard.tiff in Resources */,
 				5D06C68219D8CFFE0082F2DE /* Main.storyboard in Resources */,
 				5D06C68419D8CFFE0082F2DE /* Images.xcassets in Resources */,
 			);
