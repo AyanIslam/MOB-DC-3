@@ -62,16 +62,16 @@
                                     <segue destination="wHp-hO-sUV" kind="show" id="DvX-hq-B9f"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ayan's First App" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PWa-pl-ubd">
-                                <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ayan's First App" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B7W-Oh-ALz">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="107" y="105" width="186" height="30"/>
+                                    <rect key="frame" x="137" y="110" width="126" height="21"/>
                                 </variation>
-                            </textField>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -79,7 +79,7 @@
                                 <exclude reference="6Mn-wo-SmU"/>
                                 <exclude reference="fhK-lv-IhC"/>
                                 <exclude reference="aHP-D2-O86"/>
-                                <exclude reference="PWa-pl-ubd"/>
+                                <exclude reference="B7W-Oh-ALz"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -87,7 +87,7 @@
                                 <include reference="6Mn-wo-SmU"/>
                                 <include reference="fhK-lv-IhC"/>
                                 <include reference="aHP-D2-O86"/>
-                                <include reference="PWa-pl-ubd"/>
+                                <include reference="B7W-Oh-ALz"/>
                             </mask>
                         </variation>
                     </view>
@@ -351,7 +351,7 @@
         <image name="sleeping_leopard.tiff" width="722" height="267"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="XQQ-Vm-Db4"/>
         <segue reference="4JW-rU-f2f"/>
+        <segue reference="pUE-FO-Biq"/>
     </inferredMetricsTieBreakers>
 </document>
