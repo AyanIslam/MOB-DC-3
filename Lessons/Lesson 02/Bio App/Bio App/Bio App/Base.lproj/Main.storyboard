@@ -143,6 +143,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Rnu-1G-t8g"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="meM-xa-gKV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AfW-G4-quJ">
@@ -208,6 +209,7 @@
                         <viewControllerLayoutGuide type="bottom" id="n9V-HV-cjx"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="23a-er-nYT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZJD-fF-Beq">
@@ -282,6 +284,7 @@
                         <viewControllerLayoutGuide type="bottom" id="3HH-NE-zCs"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="gIo-9J-iIr">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="57H-sh-GX1">

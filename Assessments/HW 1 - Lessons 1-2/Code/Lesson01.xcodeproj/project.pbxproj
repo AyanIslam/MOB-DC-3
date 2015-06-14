@@ -11,7 +11,9 @@
 		5D06C67F19D8CFFE0082F2DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D06C67E19D8CFFE0082F2DE /* ViewController.swift */; };
 		5D06C68219D8CFFE0082F2DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D06C68019D8CFFE0082F2DE /* Main.storyboard */; };
 		5D06C68419D8CFFE0082F2DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D06C68319D8CFFE0082F2DE /* Images.xcassets */; };
-		5D06C69319D8CFFE0082F2DE /* Lesson01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D06C69219D8CFFE0082F2DE /* Lesson01Tests.swift */; };
+		EF6C9CD21B2D6320003799E8 /* Ayan Islam.tiff in Resources */ = {isa = PBXBuildFile; fileRef = EF6C9CD11B2D6320003799E8 /* Ayan Islam.tiff */; };
+		EF6C9CD41B2D6356003799E8 /* sleeping_leopard.tiff in Resources */ = {isa = PBXBuildFile; fileRef = EF6C9CD31B2D6356003799E8 /* sleeping_leopard.tiff */; };
+		EFE92F911B2D7ACD00D96CC1 /* Lesson01Tests in Resources */ = {isa = PBXBuildFile; fileRef = EFE92F901B2D7ACD00D96CC1 /* Lesson01Tests */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,15 +27,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5D06C67719D8CFFE0082F2DE /* Lesson01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D06C67719D8CFFE0082F2DE /* Lesson01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Lesson01.app; path = "/Users/ayanislam/Desktop/Welcome to MOB at General Assembly!!!/MOB-DC-3/Assessments/HW 1 - Lessons 1-2/Code/build/Debug-iphoneos/Lesson01.app"; sourceTree = "<absolute>"; };
 		5D06C67B19D8CFFE0082F2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D06C67C19D8CFFE0082F2DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D06C67E19D8CFFE0082F2DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5D06C68119D8CFFE0082F2DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D06C68319D8CFFE0082F2DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5D06C68C19D8CFFE0082F2DE /* Lesson01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lesson01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D06C69119D8CFFE0082F2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D06C69219D8CFFE0082F2DE /* Lesson01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson01Tests.swift; sourceTree = "<group>"; };
+		5D06C68C19D8CFFE0082F2DE /* Lesson01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Lesson01Tests.xctest; path = "/Users/ayanislam/Desktop/Welcome to MOB at General Assembly!!!/MOB-DC-3/Assessments/HW 1 - Lessons 1-2/Code/build/Debug-iphoneos/Lesson01Tests.xctest"; sourceTree = "<absolute>"; };
+		EF6C9CD11B2D6320003799E8 /* Ayan Islam.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "Ayan Islam.tiff"; path = "Lesson01.xcodeproj/../../../../../../../Pictures/Ayan/Ayan Islam.tiff"; sourceTree = SOURCE_ROOT; };
+		EF6C9CD31B2D6356003799E8 /* sleeping_leopard.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = sleeping_leopard.tiff; path = Lesson01.xcodeproj/../../../../../../../Pictures/sleeping_leopard.tiff; sourceTree = SOURCE_ROOT; };
+		EFE92F901B2D7ACD00D96CC1 /* Lesson01Tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Lesson01Tests; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,18 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				5D06C67919D8CFFE0082F2DE /* Lesson01 */,
-				5D06C68F19D8CFFE0082F2DE /* Lesson01Tests */,
-				5D06C67819D8CFFE0082F2DE /* Products */,
+				EFE92F901B2D7ACD00D96CC1 /* Lesson01Tests */,
 			);
-			sourceTree = "<group>";
-		};
-		5D06C67819D8CFFE0082F2DE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D06C67719D8CFFE0082F2DE /* Lesson01.app */,
-				5D06C68C19D8CFFE0082F2DE /* Lesson01Tests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		5D06C67919D8CFFE0082F2DE /* Lesson01 */ = {
@@ -78,6 +71,8 @@
 				5D06C67C19D8CFFE0082F2DE /* AppDelegate.swift */,
 				5D06C67E19D8CFFE0082F2DE /* ViewController.swift */,
 				5D06C68019D8CFFE0082F2DE /* Main.storyboard */,
+				EF6C9CD11B2D6320003799E8 /* Ayan Islam.tiff */,
+				EF6C9CD31B2D6356003799E8 /* sleeping_leopard.tiff */,
 				5D06C68319D8CFFE0082F2DE /* Images.xcassets */,
 				5D06C67A19D8CFFE0082F2DE /* Supporting Files */,
 			);
@@ -88,23 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				5D06C67B19D8CFFE0082F2DE /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		5D06C68F19D8CFFE0082F2DE /* Lesson01Tests */ = {
-			isa = PBXGroup;
-			children = (
-				5D06C69219D8CFFE0082F2DE /* Lesson01Tests.swift */,
-				5D06C69019D8CFFE0082F2DE /* Supporting Files */,
-			);
-			path = Lesson01Tests;
-			sourceTree = "<group>";
-		};
-		5D06C69019D8CFFE0082F2DE /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5D06C69119D8CFFE0082F2DE /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -174,7 +152,7 @@
 				Base,
 			);
 			mainGroup = 5D06C66E19D8CFFE0082F2DE;
-			productRefGroup = 5D06C67819D8CFFE0082F2DE /* Products */;
+			productRefGroup = 5D06C66E19D8CFFE0082F2DE;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -189,6 +167,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF6C9CD21B2D6320003799E8 /* Ayan Islam.tiff in Resources */,
+				EF6C9CD41B2D6356003799E8 /* sleeping_leopard.tiff in Resources */,
 				5D06C68219D8CFFE0082F2DE /* Main.storyboard in Resources */,
 				5D06C68419D8CFFE0082F2DE /* Images.xcassets in Resources */,
 			);
@@ -198,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFE92F911B2D7ACD00D96CC1 /* Lesson01Tests in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +198,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D06C69319D8CFFE0082F2DE /* Lesson01Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +373,7 @@
 				5D06C69819D8CFFE0082F2DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D06C69919D8CFFE0082F2DE /* Build configuration list for PBXNativeTarget "Lesson01Tests" */ = {
 			isa = XCConfigurationList;
@@ -401,6 +382,7 @@
 				5D06C69B19D8CFFE0082F2DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
