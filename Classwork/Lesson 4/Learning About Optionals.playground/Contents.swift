@@ -24,7 +24,6 @@ if let age = age {
 }
 
 
-
 // Forced Unwrapping
 
 var age: Int? = 10
@@ -34,3 +33,4 @@ if let _ = age {
 } else {
     age = 100
 }
+
