@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../../../../../../../Pictures/sleeping_leopard.tiff">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../../../../Pictures/Ayan/Ayan Islam.tiff">
+   </FileRef>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>
