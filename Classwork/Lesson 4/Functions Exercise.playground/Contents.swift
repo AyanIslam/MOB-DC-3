@@ -83,6 +83,13 @@ lastFunction(2, 15, "Luke", nil)
 
 
 
+func cat(sound: String, paws: Int?) -> String
+    return ("String")
+
+
+
+
+
 
 
 

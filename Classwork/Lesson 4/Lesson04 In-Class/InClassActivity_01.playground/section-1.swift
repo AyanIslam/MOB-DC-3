@@ -81,13 +81,16 @@ func knockMultipleTimes(number: Int) {
 
 knockMultipleTimes(5)
 
+// also possible to list ForInLoop as for x in 0..<number to achieve the same result
+
+
 // HAHAHA, okay let's answer before the person behind the door goes nuts!
 // We will write a replyWhoIsHere function that accepts 2 parameters
 // Parameter one will be a firstname (String), and parameter two will be the homeCountry (also String)
 // The function will just print "It's me, {firstname}, from {homeCountry}"
 
-func replyWhoIHere (firstname: String, homeCountry: String) {
-    println("It's me, \(firstname), from \(homeCountry)")
+func replyWhoIHere (firstName: String, homeCountry: String) {
+    println("It's me, \(firstName), from \(homeCountry)")
 }
 
 replyWhoIHere("Lola", "Mali")
@@ -104,6 +107,14 @@ let currentYear = currentCalendar.component(NSCalendarUnit.CalendarUnitYear, fro
 let age = currentYear - yearOfBirth
 */
 // Return the age at the end of the function
+
+func calculateAge(yearOfBirth: Int) -> Int {
+    let currentDate = NSDate()
+    let currentCalendar = NSCalendar.currentCalendar()
+    let currentYear = currentCalendar.component(NSCalendarUnit.CalendarUnitYear, fromDate: currentDate)
+    return age
+}
+
 
 // Create a function tellNameAndAge that has two parameters
 // Parameter one is the name (String), parameter two is the yearOfBirth(Int)
