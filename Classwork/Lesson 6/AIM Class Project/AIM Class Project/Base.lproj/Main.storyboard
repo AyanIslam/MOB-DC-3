@@ -124,6 +124,7 @@
                         <viewControllerLayoutGuide type="bottom" id="H5b-K3-Xbb"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fYH-Tk-QX3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pBc-3n-QrS">
