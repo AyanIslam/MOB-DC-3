@@ -26,3 +26,10 @@ class FibonacciAdder {
         return retVal
     }
 }
+
+// var fibs = [0,1]
+// var fibGenerator = GeneratorOf { () -> Int? in
+// fibs.append(fibs.reduce(0, combine:+))
+// return fibs.removeAtIndex(0)
+// }
+// 
