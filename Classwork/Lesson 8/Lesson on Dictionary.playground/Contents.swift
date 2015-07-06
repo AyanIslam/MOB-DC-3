@@ -27,3 +27,9 @@ println(friends)
 
 
 
+var dict: [Int: Int] = [0:1, 1:1, 1:2, 2:1, 3:2]
+println(dict)
+
+
+
+
