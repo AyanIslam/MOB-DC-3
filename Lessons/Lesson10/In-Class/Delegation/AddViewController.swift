@@ -8,9 +8,15 @@
 
 import UIKit
 
+protocol addStudentDelegate {
+    func addStudent(name: String)
+}
+
 class AddViewController: UIViewController {
     @IBOutlet weak var nameField: UITextField!
 
+    var delegate:addStudentDelegate
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -35,6 +41,7 @@ class AddViewController: UIViewController {
     }
     
     @IBAction func save(sender: UIButton) {
+        delegate?.addStudent(nameField.text)
         dismiss()
     }
     
