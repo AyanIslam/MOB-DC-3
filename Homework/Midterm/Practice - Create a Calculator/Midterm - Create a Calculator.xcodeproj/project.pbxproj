@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFBFD2D61B572E0000ECCF87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBFD2D51B572E0000ECCF87 /* AppDelegate.swift */; };
+		EFBFD2D81B572E0000ECCF87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBFD2D71B572E0000ECCF87 /* ViewController.swift */; };
+		EFBFD2DB1B572E0100ECCF87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFBFD2D91B572E0100ECCF87 /* Main.storyboard */; };
+		EFBFD2DD1B572E0100ECCF87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFBFD2DC1B572E0100ECCF87 /* Images.xcassets */; };
+		EFBFD2E01B572E0100ECCF87 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFBFD2DE1B572E0100ECCF87 /* LaunchScreen.xib */; };
+		EFBFD2EC1B572E0100ECCF87 /* Midterm___Create_a_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBFD2EB1B572E0100ECCF87 /* Midterm___Create_a_CalculatorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFBFD2E61B572E0100ECCF87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFBFD2C81B572E0000ECCF87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFBFD2CF1B572E0000ECCF87;
+			remoteInfo = "Midterm - Create a Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFBFD2D01B572E0000ECCF87 /* Midterm - Create a Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Midterm - Create a Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBFD2D41B572E0000ECCF87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFBFD2D51B572E0000ECCF87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFBFD2D71B572E0000ECCF87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFBFD2DA1B572E0100ECCF87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFBFD2DC1B572E0100ECCF87 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EFBFD2DF1B572E0100ECCF87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EFBFD2E51B572E0100ECCF87 /* Midterm - Create a CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Midterm - Create a CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBFD2EA1B572E0100ECCF87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFBFD2EB1B572E0100ECCF87 /* Midterm___Create_a_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Midterm___Create_a_CalculatorTests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFBFD2CD1B572E0000ECCF87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBFD2E21B572E0100ECCF87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFBFD2C71B572E0000ECCF87 = {
+			isa = PBXGroup;
+			children = (
+				EFBFD2D21B572E0000ECCF87 /* Midterm - Create a Calculator */,
+				EFBFD2E81B572E0100ECCF87 /* Midterm - Create a CalculatorTests */,
+				EFBFD2D11B572E0000ECCF87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFBFD2D11B572E0000ECCF87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFBFD2D01B572E0000ECCF87 /* Midterm - Create a Calculator.app */,
+				EFBFD2E51B572E0100ECCF87 /* Midterm - Create a CalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFBFD2D21B572E0000ECCF87 /* Midterm - Create a Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				EFBFD2D51B572E0000ECCF87 /* AppDelegate.swift */,
+				EFBFD2D71B572E0000ECCF87 /* ViewController.swift */,
+				EFBFD2D91B572E0100ECCF87 /* Main.storyboard */,
+				EFBFD2DC1B572E0100ECCF87 /* Images.xcassets */,
+				EFBFD2DE1B572E0100ECCF87 /* LaunchScreen.xib */,
+				EFBFD2D31B572E0000ECCF87 /* Supporting Files */,
+			);
+			path = "Midterm - Create a Calculator";
+			sourceTree = "<group>";
+		};
+		EFBFD2D31B572E0000ECCF87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFBFD2D41B572E0000ECCF87 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFBFD2E81B572E0100ECCF87 /* Midterm - Create a CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFBFD2EB1B572E0100ECCF87 /* Midterm___Create_a_CalculatorTests.swift */,
+				EFBFD2E91B572E0100ECCF87 /* Supporting Files */,
+			);
+			path = "Midterm - Create a CalculatorTests";
+			sourceTree = "<group>";
+		};
+		EFBFD2E91B572E0100ECCF87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFBFD2EA1B572E0100ECCF87 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFBFD2CF1B572E0000ECCF87 /* Midterm - Create a Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBFD2EF1B572E0100ECCF87 /* Build configuration list for PBXNativeTarget "Midterm - Create a Calculator" */;
+			buildPhases = (
+				EFBFD2CC1B572E0000ECCF87 /* Sources */,
+				EFBFD2CD1B572E0000ECCF87 /* Frameworks */,
+				EFBFD2CE1B572E0000ECCF87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Midterm - Create a Calculator";
+			productName = "Midterm - Create a Calculator";
+			productReference = EFBFD2D01B572E0000ECCF87 /* Midterm - Create a Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFBFD2E41B572E0100ECCF87 /* Midterm - Create a CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBFD2F21B572E0100ECCF87 /* Build configuration list for PBXNativeTarget "Midterm - Create a CalculatorTests" */;
+			buildPhases = (
+				EFBFD2E11B572E0100ECCF87 /* Sources */,
+				EFBFD2E21B572E0100ECCF87 /* Frameworks */,
+				EFBFD2E31B572E0100ECCF87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFBFD2E71B572E0100ECCF87 /* PBXTargetDependency */,
+			);
+			name = "Midterm - Create a CalculatorTests";
+			productName = "Midterm - Create a CalculatorTests";
+			productReference = EFBFD2E51B572E0100ECCF87 /* Midterm - Create a CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFBFD2C81B572E0000ECCF87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Ayan Islam";
+				TargetAttributes = {
+					EFBFD2CF1B572E0000ECCF87 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					EFBFD2E41B572E0100ECCF87 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EFBFD2CF1B572E0000ECCF87;
+					};
+				};
+			};
+			buildConfigurationList = EFBFD2CB1B572E0000ECCF87 /* Build configuration list for PBXProject "Midterm - Create a Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFBFD2C71B572E0000ECCF87;
+			productRefGroup = EFBFD2D11B572E0000ECCF87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFBFD2CF1B572E0000ECCF87 /* Midterm - Create a Calculator */,
+				EFBFD2E41B572E0100ECCF87 /* Midterm - Create a CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFBFD2CE1B572E0000ECCF87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBFD2DB1B572E0100ECCF87 /* Main.storyboard in Resources */,
+				EFBFD2E01B572E0100ECCF87 /* LaunchScreen.xib in Resources */,
+				EFBFD2DD1B572E0100ECCF87 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBFD2E31B572E0100ECCF87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFBFD2CC1B572E0000ECCF87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBFD2D81B572E0000ECCF87 /* ViewController.swift in Sources */,
+				EFBFD2D61B572E0000ECCF87 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFBFD2E11B572E0100ECCF87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBFD2EC1B572E0100ECCF87 /* Midterm___Create_a_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFBFD2E71B572E0100ECCF87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFBFD2CF1B572E0000ECCF87 /* Midterm - Create a Calculator */;
+			targetProxy = EFBFD2E61B572E0100ECCF87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFBFD2D91B572E0100ECCF87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFBFD2DA1B572E0100ECCF87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFBFD2DE1B572E0100ECCF87 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFBFD2DF1B572E0100ECCF87 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFBFD2ED1B572E0100ECCF87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFBFD2EE1B572E0100ECCF87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFBFD2F01B572E0100ECCF87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Midterm - Create a Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFBFD2F11B572E0100ECCF87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Midterm - Create a Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFBFD2F31B572E0100ECCF87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Midterm - Create a CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Midterm - Create a Calculator.app/Midterm - Create a Calculator";
+			};
+			name = Debug;
+		};
+		EFBFD2F41B572E0100ECCF87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Midterm - Create a CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Midterm - Create a Calculator.app/Midterm - Create a Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFBFD2CB1B572E0000ECCF87 /* Build configuration list for PBXProject "Midterm - Create a Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBFD2ED1B572E0100ECCF87 /* Debug */,
+				EFBFD2EE1B572E0100ECCF87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBFD2EF1B572E0100ECCF87 /* Build configuration list for PBXNativeTarget "Midterm - Create a Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBFD2F01B572E0100ECCF87 /* Debug */,
+				EFBFD2F11B572E0100ECCF87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBFD2F21B572E0100ECCF87 /* Build configuration list for PBXNativeTarget "Midterm - Create a CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBFD2F31B572E0100ECCF87 /* Debug */,
+				EFBFD2F41B572E0100ECCF87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFBFD2C81B572E0000ECCF87 /* Project object */;
+}
