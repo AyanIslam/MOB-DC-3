@@ -6,28 +6,24 @@
 //  Copyright (c) 2015 Ayan Islam. All rights reserved.
 //
 
-import UIKit
 import Foundation
+import UIKit
 
 class ViewController: UIViewController {
-    
+
+
     @IBOutlet weak var screenField: UILabel!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
     var firstNumber = Float()
     var secondNumber = Float()
     var result = Float()
     var typingNumber = false
     var operationButton = ""
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
     
     @IBAction func numberButton(sender: AnyObject) {
         var numberButton = sender.currentTitle
@@ -67,7 +63,7 @@ class ViewController: UIViewController {
         }
     }
 
-    @IBAction func clearButton(sender: AnyObject) {
+    @IBAction func acButton(sender: AnyObject) {
         firstNumber = 0
         secondNumber = 0
         result = 0

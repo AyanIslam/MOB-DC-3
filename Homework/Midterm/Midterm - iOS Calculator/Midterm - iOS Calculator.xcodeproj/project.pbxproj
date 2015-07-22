@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EFE93F3F1B5B466E00B13E92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE93F3E1B5B466E00B13E92 /* AppDelegate.swift */; };
-		EFE93F411B5B466E00B13E92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE93F401B5B466E00B13E92 /* ViewController.swift */; };
 		EFE93F441B5B466E00B13E92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFE93F421B5B466E00B13E92 /* Main.storyboard */; };
 		EFE93F461B5B466E00B13E92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE93F451B5B466E00B13E92 /* Images.xcassets */; };
 		EFE93F491B5B466E00B13E92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFE93F471B5B466E00B13E92 /* LaunchScreen.xib */; };
@@ -212,7 +211,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFE93F411B5B466E00B13E92 /* ViewController.swift in Sources */,
 				EFE93F3F1B5B466E00B13E92 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +407,7 @@
 				EFE93F5A1B5B466E00B13E92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFE93F5B1B5B466E00B13E92 /* Build configuration list for PBXNativeTarget "Midterm - iOS CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +416,7 @@
 				EFE93F5D1B5B466E00B13E92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
