@@ -1,4 +1,78 @@
-FirstViewController
+//
+//  ViewController.swift
+//  Midterm - iOS Calculator
+//
+//  Created by Ayan Islam on 7/18/15.
+//  Copyright (c) 2015 Ayan Islam. All rights reserved.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+    
+    @IBOutlet weak var screenField: UILabel!
+    var firstNumber = Float()
+    var secondNumber = Float()
+    var result = Float()
+    var typingNumber = false
+    var operationButton = ""
+
+    var screenValue: Double {
+        get {
+            return NSNumberFormatter().numberFromString(screenField.text!)!.doubleValue
+        }
+        set {
+            screenField.text = "\(newValue)"
+            typingNumber = false
+            operationButton = "="
+        }
+    }
+    @IBAction func numberButton(sender: AnyObject) {
+        var numberButton = sender.currentTitle
+        if typingNumber == true {
+            screenField.text = screenField.text! + numberButton!!;
+        } else {
+            screenField.text = numberButton;
+        }
+        typingNumber = true
+    }
+    
+    @IBAction func operationButton(sender: AnyObject) {
+        operationButton = sender.currentTitle!!
+        firstNumber = (screenField.text! as NSString).floatValue
+        typingNumber = false
+    }
+    
+    @IBAction func decimalButton(sender: AnyObject) {
+        var decimalButton = sender.currentTitle
+        
+        screenField.text = screenField.text! + decimalButton!!
+    }
+    
+    @IBAction func equalButton(sender: AnyObject) {
+        secondNumber = (screenField.text! as NSString).floatValue
+        if operationButton == "+" {
+            result = firstNumber + secondNumber
+        } else if operationButton == "-" {
+            result = firstNumber - secondNumber
+        } else if operationButton == "x" {
+            result = firstNumber * secondNumber
+        } else  if operationButton == "/"{
+            result =  firstNumber / secondNumber
+        } else if operationButton == "%" {
+            result = (firstNumber * secondNumber) / 100
+        } else {
+        screenField.text = "\(result)"
+        }
+    }
+
+    @IBAction func clearButton(sender: AnyObject) {
+        screenValue = 0
+    }
+    
+}
+
+
 
 
 

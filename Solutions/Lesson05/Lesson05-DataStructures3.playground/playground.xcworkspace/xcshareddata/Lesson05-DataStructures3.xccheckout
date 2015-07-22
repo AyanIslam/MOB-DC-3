@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>52EF0905-24A0-4C10-A8B3-D3FC0CEB32C6</string>
+	<string>48673557-88FF-446B-9706-DFE2A69C6CA8</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Midterm - iOS Calculator</string>
+	<string>Lesson05-DataStructures3</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
 		<string>https://github.com/AyanIslam/MOB-DC-3.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Homework/Midterm/Midterm - iOS Calculator/Midterm - iOS Calculator.xcodeproj</string>
+	<string>Solutions/Lesson05/Lesson05-DataStructures3.playground</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
-		<string>../../../../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/AyanIslam/MOB-DC-3.git</string>
