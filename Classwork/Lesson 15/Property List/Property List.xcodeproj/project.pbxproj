@@ -13,6 +13,8 @@
 		EF17CAC51B606F0500B12B3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF17CAC41B606F0500B12B3C /* Images.xcassets */; };
 		EF17CAC81B606F0500B12B3C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF17CAC61B606F0500B12B3C /* LaunchScreen.xib */; };
 		EF17CAD41B606F0500B12B3C /* Property_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17CAD31B606F0500B12B3C /* Property_ListTests.swift */; };
+		EF17CADE1B6072CE00B12B3C /* Movies.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF17CADD1B6072CE00B12B3C /* Movies.plist */; };
+		EF17CAE01B6077DE00B12B3C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF17CADF1B6077DE00B12B3C /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		EF17CACD1B606F0500B12B3C /* Property ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Property ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF17CAD21B606F0500B12B3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF17CAD31B606F0500B12B3C /* Property_ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property_ListTests.swift; sourceTree = "<group>"; };
+		EF17CADD1B6072CE00B12B3C /* Movies.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Movies.plist; sourceTree = "<group>"; };
+		EF17CADF1B6077DE00B12B3C /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +83,9 @@
 			children = (
 				EF17CABD1B606F0400B12B3C /* AppDelegate.swift */,
 				EF17CABF1B606F0400B12B3C /* ViewController.swift */,
+				EF17CADD1B6072CE00B12B3C /* Movies.plist */,
 				EF17CAC11B606F0400B12B3C /* Main.storyboard */,
+				EF17CADF1B6077DE00B12B3C /* TableViewController.swift */,
 				EF17CAC41B606F0500B12B3C /* Images.xcassets */,
 				EF17CAC61B606F0500B12B3C /* LaunchScreen.xib */,
 				EF17CABB1B606F0400B12B3C /* Supporting Files */,
@@ -193,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF17CAC31B606F0400B12B3C /* Main.storyboard in Resources */,
+				EF17CADE1B6072CE00B12B3C /* Movies.plist in Resources */,
 				EF17CAC81B606F0500B12B3C /* LaunchScreen.xib in Resources */,
 				EF17CAC51B606F0500B12B3C /* Images.xcassets in Resources */,
 			);
@@ -213,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF17CAC01B606F0400B12B3C /* ViewController.swift in Sources */,
+				EF17CAE01B6077DE00B12B3C /* TableViewController.swift in Sources */,
 				EF17CABE1B606F0400B12B3C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

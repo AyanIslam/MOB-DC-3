@@ -11,9 +11,20 @@ import UIKit
 class ViewController: UIViewController {
 
     
+    @IBOutlet weak var typingMovies: UITextField!
+    
+    @IBOutlet weak var addMovies: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let moviesPath = NSBundle.mainBundle().pathForResource("Movies", ofType: "plist")
+        
+        if let moviesPath = moviesPath {
+            let movies = NSArray(contentsOfFile: moviesPath)
+            println(movies)
+        }
+        
     }
 
 }
