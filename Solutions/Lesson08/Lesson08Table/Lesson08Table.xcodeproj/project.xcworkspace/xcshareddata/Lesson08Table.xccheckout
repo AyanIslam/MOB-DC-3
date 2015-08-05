@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>D701BEE5-A879-4B2C-B27A-2A9A29F6B04C</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Lesson08Table</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
 		<string>https://github.com/AyanIslam/MOB-DC-3.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Solutions/Lesson08/Lesson08Table/Lesson08Table.xcodeproj</string>
+	<string>Solutions/Lesson08/Lesson08Table/Lesson08Table.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
